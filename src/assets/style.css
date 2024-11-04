@@ -1,0 +1,138 @@
+* {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.page {
+    margin: 0;
+    margin-left: 250px;
+    width: 577px;
+    overflow: auto;
+    background-color:rgb(242,242,242)
+}
+
+.page-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px;
+    overflow: auto;
+}
+
+.page-image {
+    background-image: url(/assets/faelleshus.png);
+    height: 200px;
+}
+
+.page-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.page-header div {
+    font-size: 2em;
+}
+
+.page-header div:first-child {
+    font-size: 3em;
+}
+
+@media print {
+    .page {
+        margin-left: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+    .page-menu,
+    .page-header {
+        display: none;
+    }
+}
+
+/* BOARD MEMBERS */
+
+.board-member {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12pt;
+    width: 100%;
+}
+
+.board-member-names {
+    display: block;
+    flex: 0 1 auto;
+    width: 250px;
+    font-weight: bold;
+}
+
+.board-member-names>div:first-child {
+    font-size: 1.25em;
+}
+
+.board-member-details {
+    display: block;
+    flex: 1 1 auto;
+}
+
+/* CONTRACT */
+
+.contract-input {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0;
+}
+
+.contract-input>u {
+    display: block;
+    flex: 1 1 auto;
+    border-bottom: 1px solid black;
+}
+
+.contract-input>* {
+    display: block;
+    flex: 0 1 auto;
+    display: inline-block;
+    margin: 0 3pt;
+    position: relative;
+}
+
+.contract-input>*:first-child {
+    margin-left: 0;
+}
+
+.contract-input>*:last-child {
+    margin-right: 0;
+}
+
+.contract-sub {
+    position: absolute;
+    text-decoration: none;
+    top: 1.1em;
+    text-align: center;
+    width: 100%;
+}
+
+/* INVENTORY */
+
+table.inventory-table {
+    width:100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+table.inventory-table>tbody>tr>th,
+table.inventory-table>tbody>tr>td {
+    border: 1px solid grey;
+    padding: 1pt 3pt;
+}
+table.inventory-table>tbody>tr>td:not(:first-child) {
+    text-align:right;
+}
+table.inventory-table>tbody>tr>td:first-child>div {
+    font-size:.75em;
+}

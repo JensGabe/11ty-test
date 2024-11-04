@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Christian Sørensen",
+    "title": "Formand",
+    "address": "Ved Skovgærdet 70",
+    "email": "formanden@egebjergfaelleshus.dk",
+    "phone": "3028 8053"
+  },
+  {
+    "name": "Svend Jensen",
+    "title": "Kasserer",
+    "address": "Rydtoften 39",
+    "email": "post@egebjergfaelleshus.dk",
+    "phone": "3050 2596"
+  },
+  {
+    "name": "Bjarne Andersen",
+    "title": "",
+    "address": "Egebjerghuse 16",
+    "email": "",
+    "phone": "2023 0774"
+  },
+  {
+    "name": "Anja Leth",
+    "title": "",
+    "address": "Pæremosevej 59A",
+    "email": "",
+    "phone": "3029 9314"
+  },
+  {
+    "name": "Dàvur Leon Húsdal",
+    "title": "",
+    "address": "Egebjergtoften 12",
+    "email": "",
+    "phone": "4162 7945"
+  },
+  {
+    "name": "Ingelise Rasmussen",
+    "title": "",
+    "address": "Lerholmvej 19A",
+    "email": "",
+    "phone": "4078 8784"
+  },
+  {
+    "name": "Vibeke Søndergaard",
+    "title": "",
+    "address": "Pileager",
+    "email": "",
+    "phone": "2972 6900"
+  },
+  {
+    "name": "Jens Henrik Gabe",
+    "title": "",
+    "address": "Egebjerghuse 1",
+    "email": "",
+    "phone": "2970 2371"
+  },
+  {
+    "name": "Per Bo Jensen",
+    "title": "",
+    "address": "Birkemosevej 12",
+    "email": "",
+    "phone": "2173 4873"
+  },
+  {
+    "name": "Kristian von Staffeldt",
+    "title": "Sekretær",
+    "address": "Kastebjergvej 3",
+    "email": "",
+    "phone": "6133 2373"
+  },
+  {
+    "name": "Henning Skelbæk",
+    "title": "Revisor",
+    "address": "",
+    "email": "",
+    "phone": ""
+  },
+  {
+    "name": "Karen Thorsen",
+    "title": "Revisor",
+    "address": "",
+    "email": "",
+    "phone": ""
+  }
+]

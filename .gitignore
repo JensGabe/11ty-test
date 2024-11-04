@@ -1,0 +1,9 @@
+# Dependencies
+/node_modules
+
+# Misc
+/_site
+
+# Visual Studio Code
+/.vscode
+.history
