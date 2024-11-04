@@ -10,7 +10,7 @@ eleventyNavigation:
 ## Der udlejes ikke til ungdomsfester. ##
 
 Priserne er som følger:
-
+ 
 Fredag kr. 1.350,00
 
 På lørdage, søndage og helligdage er prisen kr. 1.975,00
