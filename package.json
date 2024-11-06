@@ -5,7 +5,7 @@
   "scripts": {
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
-    "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
+    "build:eleventy:prod": "ELEVENTY_ENV=production eleventy --path-prefix '11ty-test'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
