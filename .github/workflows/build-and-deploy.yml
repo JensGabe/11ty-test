@@ -6,12 +6,27 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+ 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build
-        uses: TartanLlama/actions-eleventy@master
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: |
+          npm ci
+  
+      - name: Build Eleventy
+        run: |
+          npm run build          
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
