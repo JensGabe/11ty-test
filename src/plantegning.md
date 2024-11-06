@@ -7,4 +7,4 @@ eleventyNavigation:
 ---
 # Plantegning #
 
-![Plantegning](/assets/plantegning.png)
+![Plantegning]({{ '/assets/plantegning.png' | url }})
