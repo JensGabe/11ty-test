@@ -5,7 +5,8 @@ eleventyNavigation:
   key: Inventarliste
   order: 3
 ---
-<h1>Inventarliste</h1>
+# Inventarliste #
+
 <table class="inventory-table"> 
   <cols>
     <col style="width:250px">
@@ -13,8 +14,9 @@ eleventyNavigation:
   <tbody>
     <tr class="inventory-header">
       <th>Service</th>
-      <th>Antal</th>
-      <th>Optalt</th>
+      <th>Forventet</th>
+      <th>Optalt Før</th>
+      <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
       <th>Ekstra</th>
       <th>Pris</th>
@@ -26,6 +28,7 @@ eleventyNavigation:
       <td>{{ inventory.antal }}</td>
       <td></td>
       <td></td>
+      <td></td>
       <td>{{ inventory.ekstra }}</td>
       <td>{{ inventory.pris }}</td>
     </tr>
@@ -34,8 +37,9 @@ eleventyNavigation:
   <tbody>
     <tr class="inventory-header">
       <th>Glas</th>
-      <th>Antal</th>
-      <th>Optalt</th>
+      <th>Forventet</th>
+      <th>Optalt Før</th>
+      <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
       <th>Ekstra</th>
       <th>Pris</th>
@@ -47,6 +51,7 @@ eleventyNavigation:
       <td>{{ inventory.antal }}</td>
       <td></td>
       <td></td>
+      <td></td>
       <td>{{ inventory.ekstra }}</td>
       <td>{{ inventory.pris }}</td>
     </tr>
@@ -55,8 +60,9 @@ eleventyNavigation:
   <tbody>
     <tr class="inventory-header">
       <th>Bestik</th>
-      <th>Antal</th>
-      <th>Optalt</th>
+      <th>Forventet</th>
+      <th>Optalt Før</th>
+      <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
       <th>Ekstra</th>
       <th>Pris</th>
@@ -68,6 +74,7 @@ eleventyNavigation:
       <td>{{ inventory.antal }}</td>
       <td></td>
       <td></td>
+      <td></td>
       <td>{{ inventory.ekstra }}</td>
       <td>{{ inventory.pris }}</td>
     </tr>
@@ -76,8 +83,9 @@ eleventyNavigation:
   <tbody>
     <tr class="inventory-header">
       <th>Andet</th>
-      <th>Antal</th>
-      <th>Optalt</th>
+      <th>Forventet</th>
+      <th>Optalt Før</th>
+      <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
       <th>Ekstra</th>
       <th>Pris</th>
@@ -89,6 +97,7 @@ eleventyNavigation:
       <td>{{ inventory.antal }}</td>
       <td></td>
       <td></td>
+      <td></td>
       <td>{{ inventory.ekstra }}</td>
       <td>{{ inventory.pris }}</td>
     </tr>
@@ -97,8 +106,9 @@ eleventyNavigation:
   <tbody>
     <tr class="inventory-header">
       <th>Inventar</th>
-      <th>Antal</th>
-      <th>Optalt</th>
+      <th>Forventet</th>
+      <th>Optalt Før</th>
+      <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
     </tr>
     {%- for inventory in inventar-inventar -%}
@@ -108,12 +118,13 @@ eleventyNavigation:
       <td>{{ inventory.antal }}</td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     {%- endfor -%}
   </tbody>
 </table>
 
-Skriv i kolonnen ”optalt før arrangement” beholdningen ved overtagelsen af lokalerne.  
+Skriv i kolonnen ”Optalt før” beholdningen ved overtagelsen af lokalerne.  
 Hvis uheldet er ude og noget forsvinder, så sæt antallet i kolonnen ”Mangler/itu”.  
 Udfyld kolonnen ”Optalt” inden lokalerne afleveres.  
 Viskestykker, håndklæder og køkkenruller skal medbringes.  

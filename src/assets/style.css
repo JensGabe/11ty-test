@@ -1,3 +1,7 @@
+:root {
+    --content-width: 675px;
+}
+
 html {
     font-family: sans-serif;
     font-size: 14px;
@@ -10,9 +14,20 @@ h1 {
 .page {
     margin: 0;
     margin-left: 250px;
-    width: 577px;
+    width: var(--content-width);
     overflow: auto;
     background-color: rgb(242, 242, 242)
+}
+
+.page iframe {
+    width: var(--content-width);
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 6pt;
 }
 
 .page-menu {
@@ -21,6 +36,9 @@ h1 {
     left: 0;
     width: 230px;
     overflow: auto;
+}
+
+.page-menu>menu {
     font-size: 1.5em;
 }
 
@@ -35,11 +53,12 @@ h1 {
     color: black;
     text-decoration: none;
     display: block;
+    padding: 3pt;
 }
 
 .page-menu menu>li.page-menu-active>a {
-    background-color: grey;
-    color: maroon!important;
+    background-color: gainsboro;
+    color: navy !important;
 }
 
 .page-menu menu>li>a:hover {
@@ -48,9 +67,13 @@ h1 {
     text-decoration: none;
 }
 
-.page-menu>menu>li:not(:first-child),
-.page-menu menu menu>li {
-    border-top: 1px solid grey;
+.page-menu>menu>li:not(:first-child)::before,
+.page-menu menu menu>li::before {
+    content: '';
+    position: absolute;
+    left: 12pt;
+    right: 0;
+    border-top: 1px solid #6ad;
 }
 
 .page-menu menu menu {
