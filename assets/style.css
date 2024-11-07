@@ -6,6 +6,9 @@
 h1 {
     font-size: 2em;
 }
+h1 * {
+    font-size: 1em;
+}
 
 .page {
     margin: 0;
@@ -21,6 +24,10 @@ h1 {
     left: 0;
     width: 230px;
     overflow: auto;
+}
+.page-menu menu menu {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .page-image {
