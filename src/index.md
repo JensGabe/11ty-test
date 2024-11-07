@@ -7,7 +7,7 @@ eleventyNavigation:
 
 {{ properties.name}} har til huse på adressen {{ properties.address }}, {{ properties.postal-code}} {{ properties.city}}.
 
-Der er plads til 72 gæster i Fælleshuset
+Der er plads til 72 gæster i Fælleshuset.
 
 Huset drives af en selvstændig bestyrelse.  
 Dets drift finansieres af en række faste brugere, herunder især [interesse-](/interesseforeninger) og [grundejerforeninger](/grundejerforeninger).  
@@ -18,9 +18,9 @@ Er du medlem af foreningen {{ properties.name}}? Vedtægterne siger om det spør
 
 # Al henvendelse vedrørende forespørgsel om udlejning skal ske til [post@egebjergfaelleshus.dk](mailto:post@egebjergfaelleshus.dk)
 
-Udlejning til private
+## Udlejning til private: ##
 
-Reglerne kan ses under knappen Regler for leje af lokaler her til venstre.
+Reglerne kan ses menupunktet knappen Regler for leje af lokaler her til venstre.
 
 De foreninger, der finansierer husets drift, har fortrinsret til brug af lokalerne.  
 Der er som oftest tale om faste dage og tider, som er reserveret lang tid i forvejen. Hvis du vil se de aktuelle reservationer til dette formål, så klik på knappen Faste udlejninger i venstre side.  

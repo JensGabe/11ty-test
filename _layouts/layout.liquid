@@ -10,9 +10,24 @@
 
 <body class="page">
   <div class="page-menu">
-  <div class="page-image foo">
-  </div>
-    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml }}
+    <div class="page-image"></div>
+    {% assign navPages = collections.all | eleventyNavigation %}
+    <menu>
+    {%- for entry in navPages %}
+      <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+        <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+        {% if entry.children.length > 0 %}
+          <menu>
+          {%- for childEntry in entry.children %}
+            <li{% if childEntry.url == page.url %} class="my-active-class"{% endif %}>
+              <a href="{{ childEntry.url | url }}">{{ childEntry.title }}</a>
+            </li>
+          {%- endfor %}
+          </menu>
+        {% endif %}
+      </li>
+    {%- endfor %}
+    </menu>
   </div>
   <div class="page-header">
     <div>{{ properties.name }}</div>
