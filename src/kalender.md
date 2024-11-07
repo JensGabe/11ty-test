@@ -2,7 +2,7 @@
 layout: layout.liquid
 eleventyNavigation:
   key: Reservationer
-  order: 4
+  order: 6
 ---
 # Reservationer #
 
