@@ -14,6 +14,6 @@ Du finder en inventarliste under menupunktet [Inventar](/inventar). Du kan udskr
 
 Du finder en huskeliste under menupunktet [Huskeliste](/huskeliste), udskriv og brug den under benyttelse af lokalerne.
 
-Du finder Lejekontrakt under menupunktet [Legekontrakt](/lejekontrakt).
+Du finder Lejekontrakt under menupunktet [Lejekontrakt](/lejekontrakt).
 
 Der er trådløs netadgang i Fælleshuset for medlemmer af tilknyttede foreninger og password udleveres i baren eller af den tilsynsførende.
