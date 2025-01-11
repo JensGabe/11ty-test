@@ -1,6 +1,5 @@
 :root {
     --menu-width: 230px;
-    --content-margin: 0 0 0 calc(var(--menu-width) + 20px);
     --content-width: 675px;
 }
 
@@ -14,7 +13,7 @@ h1 {
 }
 
 .page {
-    margin: var(--content-margin);
+    margin: 0 0 6pt calc(var(--menu-width) + 20px);
     max-width: var(--content-width);
     overflow: auto;
     background-color: rgb(242, 242, 242)
@@ -210,11 +209,11 @@ table.inventory-table>tbody>tr>td:first-child>div {
 
 @media (max-width : 1023px) {
     :root {
-        --content-margin: 0;
         --content-width: 100%;
     }
 
     .page {
+        margin: 0;
         padding: 0 1em 3em 1em;
     }
 
