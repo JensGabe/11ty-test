@@ -18,7 +18,6 @@ export default function (eleventyConfig) {
 	});
 	return {
 		// When a passthrough file is modified, rebuild the pages:
-        markdownTemplateEngine: 'njk',
 		passthroughFileCopy: true,
 		dir: {
 			input: "src",
