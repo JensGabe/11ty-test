@@ -5,26 +5,25 @@ eleventyNavigation:
   order: 1
 ---
 
-{{ properties.name}} har til huse på adressen {{ properties.address }}, {{ properties.postal-code}} {{ properties.city}}.
+Egebjerg Fælleshus har til huse på adressen Agernhaven 8, 2750 Ballerup.
 
-Der er plads til 72 gæster i Fælleshuset
+Der er plads til 72 gæster i Fælleshuset.
 
 Huset drives af en selvstændig bestyrelse.  
-Dets drift finansieres af en række faste brugere, herunder især [interesse-](/interesseforeninger) og [grundejerforeninger](/grundejerforeninger).  
+Dets drift finansieres af en række faste brugere, herunder især [interesse-]({{ "/interesseforeninger" | url }}) og [grundejerforeninger]({{ "/grundejerforeninger" | url }}).  
 Driften finansieres herudover af udlejning til private.  
 
-Er du medlem af foreningen {{ properties.name}}? Vedtægterne siger om det spørgsmål i §3: "Foreningens medlemmer er de beboere, som er medlem af en grundejerforening, der økonomisk støtter driften af huset."  
-(Red.: [Du kan se om din grundejerforening er omfattet her](/grundejerforeninger).)
+Er du medlem af foreningen Egebjerg Fælleshus? Vedtægterne siger om det spørgsmål i §3: "Foreningens medlemmer er de beboere, som er medlem af en grundejerforening, der økonomisk støtter driften af huset."  
+(Red.: [Du kan se om din grundejerforening er omfattet her]({{ "/grundejerforeninger" | url }}).)
 
 # Al henvendelse vedrørende forespørgsel om udlejning skal ske til [post@egebjergfaelleshus.dk](mailto:post@egebjergfaelleshus.dk)
 
-Udlejning til private
+## Udlejning til private: ##
 
-Reglerne kan ses under knappen Regler for leje af lokaler her til venstre.
+Reglerne kan ses under menupunktet [Regler for leje or priser]({{ "/regler" | url }}).
 
 De foreninger, der finansierer husets drift, har fortrinsret til brug af lokalerne.  
-Der er som oftest tale om faste dage og tider, som er reserveret lang tid i forvejen. Hvis du vil se de aktuelle reservationer til dette formål, så klik på knappen Faste udlejninger i venstre side.  
+Der er som oftest tale om faste dage og tider, som er reserveret lang tid i forvejen.
 
 Lokalerne er som regel ledige for udlejning til private i weekender og på helligdage.  
-Du kan se om lokalerne p.t. er ledige på en given dato ved at klikke på knappen Reservationer i venstre side.  
-Husk dog også at se under Faste udlejninger.  
+Du kan se om lokalerne p.t. er ledige på en given dato under menupunktet [Reservationer]({{ "/reservationer" | url }}).  

@@ -15,7 +15,7 @@ Foreningens formål er at drive lokalerne, Egebjerg Fælleshus beliggende Agernh
 
 **§ 3**
 Foreningens medlemmer er de beboere, som er medlem af en grundejerforening der økonomisk støtter driften af huset eller en interesseforening. Alene medlemmer af grundejerforeningerne har stemmeret.  
-(Red.: [Du kan se om din grundejerforening er omfattet her](/grundejerforeninger).)
+(Red.: [Du kan se om din grundejerforening er omfattet her]({{ "/grundejerforeninger" | url }}).)
 
 **§ 4**
 Foreningens økonomiske grundlag hviler på frivillige tilskud fra grundejerforeningerne:Egebjerghøj, Egebjerghuse, Egebjerglund-Nord, Egebjerglund-Syd, Egekrogen, Pilehøj, Skovbo, Tranemosen og Ågesdal samt på indtægter fra udlejning og brugerbetaling fra interesseforeninger.
