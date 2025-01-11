@@ -9,8 +9,8 @@
 </head>
 
 <body class="page">
+  <div class="page-image" onclick="document.getElementsByClassName('page')[0].classList.toggle('menu-show')"></div>
   <div class="page-menu">
-    <div class="page-image"></div>
     {% assign navPages = collections.all | eleventyNavigation %}
     <menu>
     {%- for entry in navPages %}
@@ -28,11 +28,6 @@
       </li>
     {%- endfor %}
     </menu>
-    <div class="page-footer">
-      <div>Egebjerg Fælleshus</div>
-      <div>Agernhaven 8</div>
-      <div>Ballerup</div>
-    </div>
   </div>
   <div class="page-header">
     <div>Egebjerg Fælleshus</div>
@@ -41,6 +36,11 @@
   </div>
   <div class="page-content">
     {{ content }}
+  </div>
+  <div class="page-footer">
+    <div>Egebjerg Fælleshus</div>
+    <div>Agernhaven 8</div>
+    <div>Ballerup</div>
   </div>
 </body>
 
