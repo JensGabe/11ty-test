@@ -35,4 +35,4 @@ jobs:
           username: web_ftp@egebjergfaelleshus.dk
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: _site/
-          server-dir: /public_html
+          server-dir: public_html/
