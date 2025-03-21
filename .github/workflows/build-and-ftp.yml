@@ -1,4 +1,4 @@
-name: Build and Deploy 
+name: Build and FTP Deploy 
 
 on:
   push:
@@ -34,5 +34,5 @@ jobs:
           server: ftp.egebjergfaelleshus.dk
           username: web_ftp@egebjergfaelleshus.dk
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: _site
+          local-dir: _site/
           server-dir: /public_html
