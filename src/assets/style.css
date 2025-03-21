@@ -104,6 +104,11 @@ h1 {
 .page-header div:first-child {
     font-size: 3em;
 }
+.page-revised {
+    margin: 1em 1em;
+    padding: 1em;
+    font-style: italic;
+}
 
 @media print {
     .page {
@@ -115,7 +120,8 @@ h1 {
     .page-image,
     .page-menu,
     .page-header,
-    .page-footer {
+    .page-footer,
+    .page-revised {
         display: none;
     }
 }
@@ -138,6 +144,13 @@ h1 {
 
 .board-member-names>div:first-child {
     font-size: 1.25em;
+}
+.board-member-year {
+    font-size: .8em;
+    font-style: italic;
+}
+.board-member-year:not(:empty):before {
+    content: "Valgt til ";
 }
 
 .board-member-details {
@@ -190,6 +203,8 @@ table.inventory-table {
     table-layout: fixed;
     border-collapse: collapse;
     border-spacing: 0;
+    background-color: white;
+    border: 2px solid black;
 }
 
 table.inventory-table>tbody>tr>th,
@@ -255,4 +270,94 @@ table.inventory-table>tbody>tr>td:first-child>div {
         display: inline-block;
         margin-right: 1em;
     }
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.images-box {
+    margin: 10px;
+    width: 110px;
+    height: 110px;
+}
+.images-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6pt;
+    cursor: pointer;
+}
+.images-image-control {
+    display:none;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    font-size: 24pt;
+    font-weight: bold;
+    z-index: 3;
+    cursor: pointer;
+}
+.images-image-expand>.images-image-control {
+    display: unset;
+}
+.images-image-expand:first-child>.images-image-prev,
+.images-image-expand:last-child>.images-image-next {
+    display: none;
+}
+.images-image-expand>.images-image-control:hover {
+    opacity: .8;
+}
+.images-image-close {
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 50px;
+    height:50px;
+    border-bottom-left-radius: 50px;
+}
+.images-image-close:before {
+    content: "x";
+    position: absolute;
+    right: .3em;
+}
+.images-image-prev {
+    position: fixed;
+    top:50px;
+    left: 0;
+    width: 50px;
+    bottom:50px;
+    border-radius: 0 50px 50px 0;
+}
+.images-image-prev:before {
+    content: "<";
+    position: absolute;
+    top: 50%;
+    right: .3em;
+}
+.images-image-next {
+    position: fixed;
+    top:50px;
+    right: 0;
+    width: 50px;
+    bottom:50px;
+    border-radius: 50px 0 0 50px;
+}
+.images-image-next:before {
+    content: ">";
+    position: absolute;
+    top: 50%;
+    left: .3em;
+}
+
+.images-image-expand>.images-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.8);
 }

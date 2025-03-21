@@ -1,73 +1,83 @@
 [
   {
-    "name": "Christian Sørensen",
+    "name": "Svend Jensen",
     "title": "Formand",
-    "address": "Ved Skovgærdet 70",
+    "address": "Rydtoften 39",
     "email": "formanden@egebjergfaelleshus.dk",
-    "phone": "3028 8053"
+    "phone": "3050 2596",
+    "year": 2027
   },
   {
-    "name": "Svend Jensen",
+    "name": "Jens Henrik Gabe",
     "title": "Kasserer",
-    "address": "Rydtoften 39",
+    "address": "Egebjerghuse 1",
     "email": "post@egebjergfaelleshus.dk",
-    "phone": "3050 2596"
+    "phone": "2970 2371",
+    "year": 2026
+  },
+  {
+    "name": "Christian Sørensen",
+    "title": "",
+    "address": "Ved Skovgærdet 70",
+    "email": "",
+    "phone": "3028 8053",
+    "year": 2027
   },
   {
     "name": "Bjarne Andersen",
     "title": "",
     "address": "Egebjerghuse 16",
     "email": "",
-    "phone": "2023 0774"
+    "phone": "2023 0774",
+    "year": 2026
   },
   {
     "name": "Anja Leth",
     "title": "",
     "address": "Pæremosevej 59A",
     "email": "",
-    "phone": "3029 9314"
+    "phone": "3029 9314",
+    "year": 2026
   },
   {
     "name": "Dàvur Leon Húsdal",
     "title": "",
     "address": "Egebjergtoften 12",
     "email": "",
-    "phone": "4162 7945"
+    "phone": "4162 7945",
+    "year": 2026
   },
   {
     "name": "Ingelise Rasmussen",
     "title": "",
     "address": "Lerholmvej 19A",
     "email": "",
-    "phone": "4078 8784"
+    "phone": "4078 8784",
+    "year": 2026
   },
   {
     "name": "Vibeke Søndergaard",
     "title": "",
     "address": "Pileager",
     "email": "",
-    "phone": "2972 6900"
-  },
-  {
-    "name": "Jens Henrik Gabe",
-    "title": "",
-    "address": "Egebjerghuse 1",
-    "email": "",
-    "phone": "2970 2371"
+    "phone": "2972 6900",
+    "year": 2027
   },
   {
     "name": "Per Bo Jensen",
     "title": "",
     "address": "Birkemosevej 12",
     "email": "",
-    "phone": "2173 4873"
+    "phone": "2173 4873",
+    "year": 2027
   },
   {
     "name": "Kristian von Staffeldt",
     "title": "Sekretær",
     "address": "Kastebjergvej 3",
     "email": "",
-    "phone": "6133 2373"
+    "phone": "6133 2373",
+    "year": 2027
   },
   {
     "name": "Henning Skelbæk",

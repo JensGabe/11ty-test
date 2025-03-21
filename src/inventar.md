@@ -4,6 +4,7 @@ eleventyNavigation:
   parent: Lokalerne
   key: Inventarliste
   order: 3
+date: 2017-04-25
 ---
 # Inventarliste #
 
@@ -128,5 +129,3 @@ Skriv i kolonnen ”Optalt før” beholdningen ved overtagelsen af lokalerne.
 Hvis uheldet er ude og noget forsvinder, så sæt antallet i kolonnen ”Mangler/itu”.  
 Udfyld kolonnen ”Optalt” inden lokalerne afleveres.  
 Viskestykker, håndklæder og køkkenruller skal medbringes.  
-
-Opdateret 25/4-2017

@@ -3,11 +3,12 @@ layout: layout.liquid
 eleventyNavigation:
   key: Reservationer
   order: 6
+date: git Last Modified
 ---
 # Reservationer #
 
-Reservationer kan tidligst ske 4 måneder før brugsdagen, dog 6 måneder før, for de grundejere hvis grundejerforening støtter Fælleshuset økonomisk.
-Reservation kan indtil videre alene ske via mail til Fælleshusets mailadresse [post@egebjergfaelleshus.dk](mailto:post@egebjergfaelleshus.dk)
+Reservationer kan tidligst ske 6 måneder før brugsdagen.
+Reservations forespørgsler kan laves med formularen på [Kontakt siden]({{ "/kontakt" | url }}) eller via mail til Fælleshusets mailadresse [post@egebjergfaelleshus.dk](mailto:post@egebjergfaelleshus.dk)
 
 Interesseforeninger og grundejerforeninger kan reservere lokalerne 1 år frem i tiden.
 

@@ -3,6 +3,7 @@ layout: layout.liquid
 eleventyNavigation:
   key: Vedtægter
   order: 3
+date: 2024-11-03
 ---
 # Vedtægter for #
 # FORENINGEN FOR EGEBJERG FÆLLESHUS
@@ -77,8 +78,6 @@ I tilfælde af foreningens opløsning skal eventuelle aktiver anvendes til velg�
 Opløsningen skal vedtages på 2 på hinanden følgende generalforsamlinger med mindst 2/3 majoritet blandt fremmødte.
 
 
----
+> Vedtaget 11/2-1999 
 
-Vedtaget 11/2-1999 
-
-Revideret 24/2-2000, 11/5-2000, 20/2-2003, 21/2-2008, 16/2-2012, 28/2-2013, 3/3-2016, 14/3-2019 og 14/3-2024
+> Revideret 24/2-2000, 11/5-2000, 20/2-2003, 21/2-2008, 16/2-2012, 28/2-2013, 3/3-2016, 14/3-2019 og 14/3-2024

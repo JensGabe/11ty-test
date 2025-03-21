@@ -4,6 +4,7 @@ eleventyNavigation:
   parent: Lokalerne
   key: Huskeliste
   order: 4
+date: 2024-11-04
 ---
 # Husk når i lejer Fælleshuset #
 

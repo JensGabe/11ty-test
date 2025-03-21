@@ -4,6 +4,7 @@ eleventyNavigation:
   parent: Overblik
   key: Grundejerforeninger
   hide: true
+date: 2024-11-04
 ---
 # Grundejerforeninger i Egebjerg #
 1. GADEHUSENE
