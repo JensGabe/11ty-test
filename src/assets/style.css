@@ -104,6 +104,7 @@ h1 {
 .page-header div:first-child {
     font-size: 3em;
 }
+
 .page-revised {
     margin: 1em 1em;
     padding: 1em;
@@ -145,10 +146,12 @@ h1 {
 .board-member-names>div:first-child {
     font-size: 1.25em;
 }
+
 .board-member-year {
     font-size: .8em;
     font-style: italic;
 }
+
 .board-member-year:not(:empty):before {
     content: "Valgt til ";
 }
@@ -277,11 +280,13 @@ table.inventory-table>tbody>tr>td:first-child>div {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .images-box {
     margin: 10px;
     width: 110px;
     height: 110px;
 }
+
 .images-image {
     width: 100%;
     height: 100%;
@@ -289,8 +294,9 @@ table.inventory-table>tbody>tr>td:first-child>div {
     border-radius: 6pt;
     cursor: pointer;
 }
+
 .images-image-control {
-    display:none;
+    display: none;
     background-color: black;
     color: white;
     opacity: 0.5;
@@ -299,51 +305,60 @@ table.inventory-table>tbody>tr>td:first-child>div {
     z-index: 3;
     cursor: pointer;
 }
+
 .images-image-expand>.images-image-control {
     display: unset;
 }
+
 .images-image-expand:first-child>.images-image-prev,
 .images-image-expand:last-child>.images-image-next {
     display: none;
 }
+
 .images-image-expand>.images-image-control:hover {
     opacity: .8;
 }
+
 .images-image-close {
     position: fixed;
-    top:0;
+    top: 0;
     right: 0;
     width: 50px;
-    height:50px;
+    height: 50px;
     border-bottom-left-radius: 50px;
 }
+
 .images-image-close:before {
     content: "x";
     position: absolute;
     right: .3em;
 }
+
 .images-image-prev {
     position: fixed;
-    top:50px;
+    top: 50px;
     left: 0;
     width: 50px;
-    bottom:50px;
+    bottom: 50px;
     border-radius: 0 50px 50px 0;
 }
+
 .images-image-prev:before {
     content: "<";
     position: absolute;
     top: 50%;
     right: .3em;
 }
+
 .images-image-next {
     position: fixed;
-    top:50px;
+    top: 50px;
     right: 0;
     width: 50px;
-    bottom:50px;
+    bottom: 50px;
     border-radius: 50px 0 0 50px;
 }
+
 .images-image-next:before {
     content: ">";
     position: absolute;
