@@ -7,7 +7,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/assets/billeder/*.*");
 
 	eleventyConfig.addFilter("removeSpaces", (value) => value.replace(' ', ''));  
-	eleventyConfig.addFilter("postDate", (dateObj) => new Intl.DateTimeFormat("dk-DA").format(dateObj));
+	eleventyConfig.addFilter("postDate", (dateObj) => new Intl.DateTimeFormat("da-DK").format(dateObj));
 
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
