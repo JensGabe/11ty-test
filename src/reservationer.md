@@ -7,10 +7,20 @@ date: git Last Modified
 ---
 # Reservationer #
 
-Reservationer kan tidligst ske 6 måneder før brugsdagen.
-Reservations forespørgsler kan laves med formularen på [Kontakt siden]({{ "/kontakt" | url }}) eller via mail til Fælleshusets mailadresse [post@egebjergfaelleshus.dk](mailto:post@egebjergfaelleshus.dk)
+## Privatudlejning ##
+
+Reservationer kan **tidligst** ske 6 måneder før brugsdagen.  
+Reservationsforespørgsler kan laves med formularen på [Kontakt siden]({{ "/kontakt" | url }}) eller via mailadressen [privatudlejning@egebjergfaelleshus.dk](mailto:privatudlejning@egebjergfaelleshus.dk)
+
+## Interesse- og grundejerforeninger ##
 
 Interesseforeninger og grundejerforeninger kan reservere lokalerne 1 år frem i tiden.
+Reservationsforespørgsler kan laves via mailadresserne:
+ * [interesseforeninger@egebjergfaelleshus.dk](mailto:interesseforeninger@egebjergfaelleshus.dk)  
+ * [grundejerforeninger@egebjergfaelleshus.dk](mailto:grundejerforeninger@egebjergfaelleshus.dk)
+
+
+## Aftaler ##
 
 Endelig aftale indgås skriftligt mellem lejeren og husets tilsynsførende.
 

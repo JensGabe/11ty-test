@@ -1,20 +1,20 @@
 navn,antal,kommentar
-Køleskabe,3
-Dybfryser,1
-Opvaskemaskine,1
+Køleskabe,3, 1 fuld højde og 2 halvhøje
+Dybfryser,1, Halvhøjde
+Opvaskemaskine,1, Hurtigst program: 15 minutter
 Kaffemaskiner i køkken,2
-Stor kaffemaskine i baren, 1
+Kaffemaskiner i baren,2, Dobbeltkande
 El-kedler,2
-Støvsuger,1
-Komfur,1
-Ekstra ovn, 1
-Mikroovn,1
+Kogeplader,4
 Emhætte,1
+Ovne,2
+Mikroovn,1
 Rulleborde,2
-Rengøringsvogn,1,med diverse
 Puder,60
 Høj barnestol,2
 Puslebord,1
 Barstole,3 + 7
 Musikanlæg,1, med ledning til PC
 Klaver,1
+Støvsuger,1
+Rengøringsvogn,1,med diverse

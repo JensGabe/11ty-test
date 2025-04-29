@@ -8,8 +8,6 @@ date: git Last Modified
 ---
 # Regler for leje af lokalerne i Egebjerg Fælleshus #
 
-## Der udlejes ikke til ungdomsfester. ##
-
 Priserne er som følger:
  
 Fredag kr. 1.350,00
@@ -30,8 +28,10 @@ Lejen betales senest 2 måned før brugsdato.
 
 *Lejetidspunkt for en brugsdag går fra kl. 9.30 til næste dag kl. 9.00. Af hensyn til den ugentlige rengøring, kan man på fredage tidligst disponere over lokalerne kl. 11.00*
 
-Reservationer kan tidligst ske 6 måneder før brugsdagen.
-Reservations forespørgsler kan laves med formularen på [Kontakt siden]({{ "/kontakt" | url }}) eller via mail til Fælleshusets mailadresse [post@egebjergfaelleshus.dk](mailto:post@egebjergfaelleshus.dk)
+## Der udlejes ikke til ungdomsfester! ##
+
+Reservationer kan **tidligst** ske 6 måneder før brugsdagen.
+Reservations forespørgsler kan laves med formularen på [Kontakt siden]({{ "/kontakt" | url }}) eller via mail adressen [privatudejning@egebjergfaelleshus.dk](mailto:privatudejning@egebjergfaelleshus.dk)
 
 Gebyr for reservation kr. 250,- betales, når ansøgningen afleveres.  
 
