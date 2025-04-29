@@ -3,7 +3,7 @@ layout: layout.liquid
 eleventyNavigation:
   key: Kontakt
   order: 7
-date: 2024-11-04
+date: git Last Modified
 ---
 # Du kan kontakte os ved at udfylde nedenstående formular. #
 
