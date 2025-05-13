@@ -8,8 +8,8 @@
   <title>Egebjerg Fælleshus</title>
 </head>
 
-<body class="page">
-  <div class="page-image" onclick="document.getElementsByClassName('page')[0].classList.toggle('menu-show')"></div>
+<body class="page" onclick="document.getElementsByClassName('page')[0].classList.remove('menu-show');">
+  <div class="page-image" onclick="document.getElementsByClassName('page')[0].classList.toggle('menu-show'); event.cancelBubble = true;"></div>
   <div class="page-menu">
     
     <menu>
@@ -173,7 +173,7 @@
 	</div></div>
 
 
-    <div class="page-revised">Siden er sidst opdateret: 9.5.2025</div>
+    <div class="page-revised">Siden er sidst opdateret: 13.5.2025</div>
   </div>
   <div class="page-footer">
     <div>Egebjerg Fælleshus</div>

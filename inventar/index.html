@@ -8,8 +8,8 @@
   <title>Egebjerg Fælleshus</title>
 </head>
 
-<body class="page">
-  <div class="page-image" onclick="document.getElementsByClassName('page')[0].classList.toggle('menu-show')"></div>
+<body class="page" onclick="document.getElementsByClassName('page')[0].classList.remove('menu-show');">
+  <div class="page-image" onclick="document.getElementsByClassName('page')[0].classList.toggle('menu-show'); event.cancelBubble = true;"></div>
   <div class="page-menu">
     
     <menu>
@@ -76,7 +76,7 @@
     <h1>Inventarliste</h1>
 <table class="inventory-table"> 
   <cols>
-    <col style="width:250px">
+    <col>
   </cols>
   <tbody>
     <tr class="inventory-header">
