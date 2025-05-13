@@ -10,7 +10,7 @@ date: 2017-04-25
 
 <table class="inventory-table"> 
   <cols>
-    <col style="width:250px">
+    <col>
   </cols>
   <tbody>
     <tr class="inventory-header">

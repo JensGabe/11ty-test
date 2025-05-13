@@ -51,5 +51,5 @@ Der er i Ballerup Sogn følgende konfirmationsdage i 2026:
 
 **Hvis flere ønsker samme dato og har indsendt ansøgning rettidig  kl. 20.00, foretages der en lodtrækning.**
 
-Henvendelse kan rettes via mail til [post@egebjergfaelleshus.dk](mailto:post@egebjergfaelleshus.dk) eller til formanden {{ bestyrelsen[0].name }}, telefon [{{ bestyrelsen[0].phone }}](tel:{{ bestyrelsen[0].phone | removeSpaces }}).
+Henvendelse kan rettes via mail til [privatudejning@egebjergfaelleshus.dk](mailto:privatudejning@egebjergfaelleshus.dk) eller til formanden {{ bestyrelsen[0].name }}, telefon [{{ bestyrelsen[0].phone }}](tel:{{ bestyrelsen[0].phone | removeSpaces }}).
 
