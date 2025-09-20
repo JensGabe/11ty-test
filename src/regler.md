@@ -10,17 +10,15 @@ date: git Last Modified
 
 Priserne er som følger:
  
-Fredag kr. 1.350,00
+For en enkelt dag er prisen afhængig af hvilken ugedag det er:
+* Lørdag, søndag og helligdag: **kr. 1.975,00**
+* Fredag: **kr. 1.350,00**
+* Man-/tirs-/ons-/torsdag: **kr. 800,00**
 
-På lørdage, søndage og helligdage er prisen kr. 1.975,00
-
-Fredag-lørdag kr. 2.800,00
-
-Lørdag-søndag kr. 3.200,00
-
-Fredag-lørdag-søndag kr. 4.000,00.
-
-Andre hverdage end fredag kr. 800,00 
+For flerdags udlejninger er priserne følgende:
+* Fredag - lørdag: **kr. 2.800,00**
+* Lørdag - søndag: **kr. 3.200,00**
+* Fredag - søndag: **kr. 4.000,00**
 
 Der er mulighed for at leje ekstralokale (ca. 40m²) til kr. 300 pr. udlejning.
 
