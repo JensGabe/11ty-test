@@ -15,7 +15,7 @@ date: 2017-04-25
   <tbody>
     <tr class="inventory-header">
       <th>Service</th>
-      <th>Forventet</th>
+      <th>For&#8203;ventet</th>
       <th>Optalt Før</th>
       <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
@@ -38,7 +38,7 @@ date: 2017-04-25
   <tbody>
     <tr class="inventory-header">
       <th>Glas</th>
-      <th>Forventet</th>
+      <th>For&#8203;ventet</th>
       <th>Optalt Før</th>
       <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
@@ -61,7 +61,7 @@ date: 2017-04-25
   <tbody>
     <tr class="inventory-header">
       <th>Bestik</th>
-      <th>Forventet</th>
+      <th>For&#8203;ventet</th>
       <th>Optalt Før</th>
       <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
@@ -84,7 +84,7 @@ date: 2017-04-25
   <tbody>
     <tr class="inventory-header">
       <th>Andet</th>
-      <th>Forventet</th>
+      <th>For&#8203;ventet</th>
       <th>Optalt Før</th>
       <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
@@ -107,7 +107,7 @@ date: 2017-04-25
   <tbody>
     <tr class="inventory-header">
       <th>Inventar</th>
-      <th>Forventet</th>
+      <th>For&#8203;ventet</th>
       <th>Optalt Før</th>
       <th>Optalt Efter</th>
       <th>Mangler /Itu</th>
