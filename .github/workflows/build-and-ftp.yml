@@ -31,13 +31,13 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ftp.egebjergfaelleshus.dk
+          server: ${{ secrets.FTP_SERVER }}
           protocol: ftps
           port: 21
           security: strict
           log-level: verbose
           timeout: 60000
-          username: web_ftp@egebjergfaelleshus.dk
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: _site/
           server-dir: public_html/
