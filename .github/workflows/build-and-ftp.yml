@@ -32,7 +32,9 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ftp.egebjergfaelleshus.dk
-          protocol: ftp
+          protocol: ftps
+          port: 21
+          security: strict
           log-level: verbose
           timeout: 60000
           username: web_ftp@egebjergfaelleshus.dk
