@@ -34,6 +34,7 @@ jobs:
           server: ftp.egebjergfaelleshus.dk
           protocol: ftps
           log-level: verbose
+          timeout: 60000
           username: web_ftp@egebjergfaelleshus.dk
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: _site/
