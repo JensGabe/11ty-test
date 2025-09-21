@@ -33,6 +33,7 @@ jobs:
         with:
           server: ftp.egebjergfaelleshus.dk
           protocol: ftps
+          log-level: verbose
           username: web_ftp@egebjergfaelleshus.dk
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: _site/
