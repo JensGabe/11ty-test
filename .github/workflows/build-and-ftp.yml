@@ -32,6 +32,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ftp.egebjergfaelleshus.dk
+          protocol: ftps
           username: web_ftp@egebjergfaelleshus.dk
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: _site/
