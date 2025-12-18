@@ -1,14 +1,21 @@
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import fg from "fast-glob";
 import { parse } from "csv-parse/sync";
+import CleanCSS from "clean-css";
 
 export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/assets/*.*");
 	eleventyConfig.addPassthroughCopy("src/assets/billeder/*.*");
 
-	eleventyConfig.addFilter("removeSpaces", (value) => value.replace(' ', ''));  
+	eleventyConfig.addFilter("removeSpaces", (value) => value.replace(' ', ''));
 	eleventyConfig.addFilter("postDate", (dateObj) => new Intl.DateTimeFormat("da-DK").format(dateObj));
-
+	eleventyConfig.addFilter("cssmin", function (code) {
+		return new CleanCSS({}).minify(code).styles;
+	});
+	// Provide a `safe` filter for templates that expect it (e.g. to avoid escaping)
+	eleventyConfig.addFilter("safe", function (value) {
+		return value;
+	});
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 	eleventyConfig.addCollection('images', async collectionApi => {

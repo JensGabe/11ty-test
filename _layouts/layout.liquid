@@ -4,13 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ '/assets/style.css' | url }}">
   <title>Egebjerg Fælleshus</title>
+  <style>
+    {% capture css %}{% include 'style.css' %}{% endcapture %}{{ css | cssmin | safe }}
+  </style>
 </head>
 
 <body class="page" onclick="document.getElementsByClassName('page')[0].classList.remove('menu-show');">
   <div class="page-image" onclick="document.getElementsByClassName('page')[0].classList.toggle('menu-show'); event.cancelBubble = true;"></div>
-  <div class="page-menu">
+  <nav class="page-menu">
     {% assign navPages = collections.all | eleventyNavigation %}
     <menu>
     {%- for entry in navPages %}
@@ -28,22 +30,21 @@
       </li>
     {%- endfor %}
     </menu>
-  </div>
-  <div class="page-header">
+  </nav>
+  <header class="page-header">
     <div>Egebjerg Fælleshus</div>
     <div>Agernhaven 8</div>
     <div>Ballerup</div>
-  </div>
-  <div class="page-content">
+  </header>
+  <main class="page-content">
     {{ content }}
-
     <div class="page-revised">Siden er sidst opdateret: {{ page.date | postDate }}</div>
-  </div>
-  <div class="page-footer">
+  </main>
+  <footer class="page-footer">
     <div>Egebjerg Fælleshus</div>
     <div>Agernhaven 8</div>
     <div>Ballerup</div>
-  </div>
+  </footer>
 </body>
 
 </html>
