@@ -8,7 +8,7 @@ date: git Last Modified
 
 Egebjerg Fælleshus har til huse på adressen Agernhaven 8, 2750 Ballerup.
 
-Der er plads til 72 gæster i Fælleshuset.
+Der er plads til **72 gæster** i Fælleshuset.
 
 Huset drives af en selvstændig bestyrelse.  
 Dets drift finansieres af en række faste brugere, herunder især interesse- og [grundejerforeninger]({{ "/grundejerforeninger" | url }}).  
