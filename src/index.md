@@ -21,17 +21,17 @@ Er du medlem af foreningen Egebjerg Fælleshus? Vedtægterne siger om det spørg
 
 Reglerne kan ses under menupunktet [Regler for leje og priser]({{ "/regler" | url }}).
 
-Reservationer kan **tidligst** ske 6 måneder før brugsdagen.
-Reservationsforespørgsler kan laves med formularen på [Kontakt siden]({{ "/kontakt" | url }}) eller via mailadressen [privatudlejning@egebjergfaelleshus.dk](mailto:privatudlejning@egebjergfaelleshus.dk)
+Reservationer kan **tidligst** ske 6 måneder før brugsdagen!  
+Booking forespørgsler kan laves med formularen under menupunktet [Booking forespørgsel]({{ "/kontakt" | url }}).
 
 De foreninger, der finansierer husets drift, har fortrinsret til brug af lokalerne.  
 Der er som oftest tale om faste dage og tider, som er reserveret lang tid i forvejen.
 
 Lokalerne er som regel ledige for udlejning til private i weekender og på helligdage.  
-Du kan se om lokalerne p.t. er ledige på en given dato under menupunktet [Reservationer]({{ "/reservationer" | url }}).
+Du kan se om lokalerne p.t. er ledige på en given dato under menupunktet [Booking kalender]({{ "/reservationer" | url }}).
 
 ## Udlening til interesse- og grundejerforeninger: ##
 
-Reservationsforespørgsler:  
+Booking forespørgsler:  
 For interesseforeninger skriv til mailadressen [interesseforeninger@egebjergfaelleshus.dk](mailto:interesseforeninger@egebjergfaelleshus.dk)  
 For grundejerforeninger skriv til mailadressen [grundejerforeninger@egebjergfaelleshus.dk](mailto:grundejerforeninger@egebjergfaelleshus.dk)

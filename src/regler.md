@@ -28,8 +28,8 @@ Lejen betales senest 2 måned før brugsdato.
 
 ## Der udlejes ikke til ungdomsfester! ##
 
-Reservationer kan **tidligst** ske 6 måneder før brugsdagen.
-Reservations forespørgsler kan laves med formularen på [Kontakt siden]({{ "/kontakt" | url }}) eller via mail adressen [privatudejning@egebjergfaelleshus.dk](mailto:privatudejning@egebjergfaelleshus.dk)
+Reservationer kan **tidligst** ske 6 måneder før brugsdagen.  
+Booking forespørgsler kan laves med formularen under menupunktet [Booking forespørgsel]({{ "/kontakt" | url }}).
 
 Gebyr for reservation kr. 250,- betales, når ansøgningen afleveres.  
 
@@ -49,5 +49,5 @@ Der er i Ballerup Sogn følgende konfirmationsdage i 2026:
 
 **Hvis flere ønsker samme dato og har indsendt ansøgning rettidig  kl. 20.00, foretages der en lodtrækning.**
 
-Henvendelse kan rettes via mail til [privatudejning@egebjergfaelleshus.dk](mailto:privatudejning@egebjergfaelleshus.dk) eller til formanden {{ bestyrelsen[0].name }}, telefon [{{ bestyrelsen[0].phone }}](tel:{{ bestyrelsen[0].phone | removeSpaces }}).
+Henvendelse, der ikke er booking forespørgsler, kan rettes via mail til [privatudejning@egebjergfaelleshus.dk](mailto:privatudejning@egebjergfaelleshus.dk) eller til formanden {{ bestyrelsen[0].name }}, telefon [{{ bestyrelsen[0].phone }}](tel:{{ bestyrelsen[0].phone | removeSpaces }}).
 

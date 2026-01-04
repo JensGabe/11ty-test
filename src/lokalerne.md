@@ -13,8 +13,6 @@ Du finder en inventarliste under menupunktet [Inventar]({{ "/inventar" | url }})
 
 Du finder en huskeliste under menupunktet [Huskeliste]({{ "/huskeliste" | url }}), udskriv og brug den under benyttelse af lokalerne.
 
-Du finder Lejekontrakt under menupunktet [Lejekontrakt]({{ "/lejekontrakt" | url }}).
-
 Der er trådløs netadgang i Fælleshuset for medlemmer af tilknyttede foreninger og password udleveres i baren eller af den tilsynsførende.
 
 # Billeder	 #
