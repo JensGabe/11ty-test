@@ -26,4 +26,4 @@ Endelig aftale indgås skriftligt mellem lejeren og husets tilsynsførende.
 
 Du kan i nedenstående kalender se hvornår Fælleshuset er reserveret og hvornår det er ledigt.
 
-<iframe src="http://booking.egebjergfaelleshus.dk/calendar" style="border-width:0" width="675" height="825" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://booking.egebjergfaelleshus.dk/calendar" style="border-width:0" width="675" height="825" frameborder="0" scrolling="no"></iframe>

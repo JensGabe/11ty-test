@@ -19,7 +19,7 @@ Der er trådløs netadgang i Fælleshuset for medlemmer af tilknyttede foreninge
 <div class="images">
 {%- for image in collections.images -%}
 	<div class="images-box">
-		<img class="images-image" src="{{ image.path }}" onclick="event.target.parentElement.classList.toggle('images-image-expand')">
+		<img class="images-image" src="{{ image.path | url }}" onclick="event.target.parentElement.classList.toggle('images-image-expand')">
 		<div class="images-image-control images-image-close" onclick="event.target.parentElement.classList.remove('images-image-expand')"></div>
 		<div class="images-image-control images-image-prev" onclick="event.target.parentElement.classList.remove('images-image-expand'); event.target.parentElement.previousSibling.classList.add('images-image-expand');"></div>
 		<div class="images-image-control images-image-next" onclick="event.target.parentElement.classList.remove('images-image-expand'); event.target.parentElement.nextSibling.classList.add('images-image-expand');"></div>
