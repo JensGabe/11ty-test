@@ -70,7 +70,7 @@ Kasseren fører kasseregnskabet og modtager alle indbetalinger og foretager alle
 
 Foreningens regnskabsår følger kalenderåret.
 
-Medlemmerne og bestyrelsen hæfter ikke personligt for økonomiske forpligtelser og kan ikke tilpligtes at gøre nogen ekstraordinær indbnderåret.rnyelser.   
+Medlemmerne og bestyrelsen hæfter ikke personligt for økonomiske forpligtelser og kan ikke tilpligtes at gøre nogen ekstraordinær indbetaling.   
 
 **§ 9**
 I tilfælde af foreningens opløsning skal eventuelle aktiver anvendes til velgørende eller almennyttige formål i Ballerup Kommune efter bestyrelsens indstilling til generalforsamlingen.
