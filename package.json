@@ -6,7 +6,7 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
-    "build:eleventy:github-pages": "ELEVENTY_ENV=production eleventy --pathprefix='/11ty-test/'",
+    "build:eleventy:github-pages": "ELEVENTY_ENV=test eleventy --pathprefix='/11ty-test/'",
     "deploy": "node .cpanel-ci.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
