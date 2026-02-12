@@ -4,8 +4,13 @@ import { parse } from "csv-parse/sync";
 import CleanCSS from "clean-css";
 
 export default function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy("src/assets/*.*");
-	eleventyConfig.addPassthroughCopy("src/assets/billeder/*.*");
+	eleventyConfig.addGlobalData("ELEVENTY_ENV", process.env.ELEVENTY_ENV);
+	eleventyConfig.addPassthroughCopy("src/assets/");
+	eleventyConfig.addPassthroughCopy("src/assets/icons/");
+	eleventyConfig.addPassthroughCopy("src/assets/billeder/");
+	if (process.env.ELEVENTY_ENV === "production") {
+		eleventyConfig.addPassthroughCopy("src/.htaccess");
+	}
 
 	eleventyConfig.addFilter("removeSpaces", (value) => value.replace(' ', ''));
 	eleventyConfig.addFilter("postDate", (dateObj) => new Intl.DateTimeFormat("da-DK").format(dateObj));
@@ -51,7 +56,6 @@ export default function (eleventyConfig) {
 			input: "src",
 			includes: "../_includes",
 			layouts: "../_layouts",
-			xdata: "_data",
 			output: "_site"
 		}
 	};

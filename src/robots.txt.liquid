@@ -1,0 +1,11 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+User-agent: *
+{% if ELEVENTY_ENV == "test" %}
+Disallow: /
+{% else %}
+Allow: /
+{% endif %}
+Sitemap: {{ host.url }}{{ '/sitemap.xml' | url }}

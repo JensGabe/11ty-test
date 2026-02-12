@@ -4,7 +4,9 @@ eleventyNavigation:
   key: Overblik
   order: 1
 date: git Last Modified
+priority: 1
 ---
+## Overblik ##
 
 Egebjerg Fælleshus har til huse på adressen Agernhaven 8, 2750 Ballerup.
 
@@ -16,6 +18,13 @@ Driften finansieres herudover af udlejning til private.
 
 Er du medlem af foreningen Egebjerg Fælleshus? Vedtægterne siger om det spørgsmål i §3: "Foreningens medlemmer er de beboere, som er medlem af en grundejerforening, der økonomisk støtter driften af huset."  
 (Red.: [Du kan se om din grundejerforening er omfattet her]({{ "/grundejerforeninger" | url }}).)
+
+## Hvad sker der i Fælleshuset ##
+
+Du kan se Fælleshusets kalender under [Booking kalender]({{ "/reservationer" | url }}) i menuen. 
+Her kan du se alle de åbne arrangementer der er planlagt, og om Fælleshuset er ledigt til dit private arrangement.
+
+Deltaljer vedr. arrangementer afholdt af **Egebjerg Klubben** kan ses på hjemmesiden: [https://egebjergklubben.dk/](https://egebjergklubben.dk/)
 
 ## Udlejning til private: ##
 

@@ -4,6 +4,7 @@ eleventyNavigation:
   key: Booking kalender
   order: 6
 date: git Last Modified
+priority: 0.8
 ---
 # Booking kalender #
 
