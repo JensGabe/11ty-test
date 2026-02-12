@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /
+
+Sitemap: https://jensgabe.github.io/11ty-test/sitemap.xml
