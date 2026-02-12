@@ -1,4 +1,5 @@
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import { HtmlBasePlugin } from "@11ty/eleventy";
 import fg from "fast-glob";
 import { parse } from "csv-parse/sync";
 import CleanCSS from "clean-css";
@@ -22,6 +23,7 @@ export default function (eleventyConfig) {
 		return value;
 	});
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
+	eleventyConfig.addPlugin(HtmlBasePlugin);
 
 	eleventyConfig.addCollection('images', async collectionApi => {
 
