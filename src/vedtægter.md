@@ -3,7 +3,7 @@ layout: layout.liquid
 eleventyNavigation:
   key: Vedtægter
   order: 3
-date: 2024-11-03
+date: git Last Modified
 ---
 # Vedtægter for #
 # FORENINGEN FOR EGEBJERG FÆLLESHUS
@@ -14,17 +14,18 @@ Foreningens navn er Foreningen for Egebjerg Fælleshus.
 **§ 2**
 Foreningens formål er at drive lokalerne, Egebjerg Fælleshus beliggende Agernhaven 8, som lejes af Ballerup Kommune.
 
+Herudover kan der ydes tilskud til arrangementer/initiativer til fremme af fællesskabet i
+lokalområdet (Egebjerg).
+
 **§ 3**
 Foreningens medlemmer er de beboere, som er medlem af en grundejerforening der økonomisk støtter driften af huset eller en interesseforening. Alene medlemmer af grundejerforeningerne har stemmeret.  
 (Red.: [Du kan se om din grundejerforening er omfattet her]({{ "/grundejerforeninger" | url }}).)
 
 **§ 4**
-Foreningens økonomiske grundlag hviler på frivillige tilskud fra grundejerforeningerne:  
-Egebjerghøj, Egebjerghuse, Egebjerglund-Nord, Egebjerglund-Syd, Egekrogen, Pilehøj, Skovbo, Tranemosen og Ågesdal samt på indtægter fra udlejning og brugerbetaling fra interesseforeninger.
+Foreningens økonomiske grundlag hviler på frivillige tilskud fra grundejerforeninger i Egebjerg
+samt på indtægter fra udlejning og brugerbetaling fra interesseforeninger.
 
 Tilskudsyderne og interesseforeningerne har fortrin m.h.t. brug af Fælleshuset.
-
-Private lejere, der er medlem af tilskudsydende grundejerforeninger, har lejefortrin.
 
 **§ 5**
 Foreningen drives af en bestyrelse på mindst 6 medlemmer og maksimum 10 medlemmer.
@@ -83,4 +84,4 @@ Opløsningen skal vedtages på 2 på hinanden følgende generalforsamlinger med 
 
 > Vedtaget 11/2-1999 
 
-> Revideret 24/2-2000, 11/5-2000, 20/2-2003, 21/2-2008, 16/2-2012, 28/2-2013, 3/3-2016, 14/3-2019 og 14/3-2024
+> Revideret 24/2-2000, 11/5-2000, 20/2-2003, 21/2-2008, 16/2-2012, 28/2-2013, 3/3-2016, 14/3-2019, 14/3-2024 og 25/3-2026

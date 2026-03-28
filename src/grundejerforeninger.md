@@ -4,29 +4,29 @@ eleventyNavigation:
   parent: Overblik
   key: Grundejerforeninger
   hide: true
-date: 2024-11-04
+date: git Last Modified
 ---
-# Grundejerforeninger i Egebjerg #
-1. GADEHUSENE
-    * Ingen tilskud til Fælleshuset
-1. EGEBJERGHUSE
-    * 30 medlemmer
-1. TRANEMOSEN
-    * 28 medlemmer
-1. EGEBJERGHØJ
-    * 55 medlemmer
+# Tilskudsgivende Grundejerforeninger i Egebjerg #
+1. AAGESDAL
+    * 117 medlemmer
 1. EGEBJERGLUND-NORD
     * 72 medlemmer
+1. EGEBJERGLUND-SYD
+    * 154 medlemmer
+1. EGEBJERGHUSE
+    * 30 medlemmer
+1. EGEBJERGHØJ
+    * 55 medlemmer
+1. EGEKROGEN
+    * 23 medlemmer
+1. HJORTEKILEN
+    * 24 medlemmer
 1. PILEHØJ
     * 100 medlemmer
 1. SKOVBO
     * 123 medlemmer
-1. EGEKROGEN
-    * 23 medlemmer
-1. AAGESDAL
-    * 117 medlemmer
-1. EGEBJERGLUND-SYD
-    * 154 medlemmer
+1. TRANEMOSEN
+    * 28 medlemmer
 
 
 NB! Nærmere oplysninger om de enkelte grundejerforeninger kan ses på Egebjergklubbens hjemmeside eller på den pågældende grundejerforenings hjemmeside.

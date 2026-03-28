@@ -37,15 +37,15 @@ Ved afbestilling senere end to måneder før lejemålet, kan tilbagebetaling af 
 
 Det er klokkeslættet anført på lejekontrakten, der afgør hvem der har retten til lejemålet. 
 
-### KONFIRMATIONER 2026 ###
+### KONFIRMATIONER 2027 ###
 
-Der er i Ballerup Sogn følgende konfirmationsdage i 2026:
+Der er i Ballerup Sogn følgende konfirmationsdage i 2027:
 
-&nbsp;&nbsp;&nbsp; 9. maj &nbsp;&nbsp;&nbsp; 14. maj &nbsp;&nbsp;&nbsp; 16. maj       
+&nbsp;&nbsp;&nbsp; 1. maj &nbsp;&nbsp;&nbsp; 6. maj &nbsp;&nbsp;&nbsp; 8. maj       
 
 Ønsker om leje af disse dage skal sendes til vores mailadresse senest kl. 20.00 h.h.v.
 
-&nbsp;&nbsp;&nbsp; 9. nov. &nbsp;&nbsp;&nbsp; 14. nov. &nbsp;&nbsp;&nbsp; 16. nov.     
+&nbsp;&nbsp;&nbsp; 1. nov. &nbsp;&nbsp;&nbsp; 6. nov. &nbsp;&nbsp;&nbsp; 8. nov.     
 
 **Hvis flere ønsker samme dato og har indsendt ansøgning rettidig  kl. 20.00, foretages der en lodtrækning.**
 
