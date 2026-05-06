@@ -39,7 +39,7 @@ Der er som oftest tale om faste dage og tider, som er reserveret lang tid i forv
 Lokalerne er som regel ledige for udlejning til private i weekender og på helligdage.  
 Du kan se om lokalerne p.t. er ledige på en given dato under menupunktet [Booking kalender]({{ "/reservationer" | url }}).
 
-## Udlening til interesse- og grundejerforeninger: ##
+## Udlejning til interesse- og grundejerforeninger: ##
 
 Booking forespørgsler:  
 For interesseforeninger skriv til mailadressen [interesseforeninger@egebjergfaelleshus.dk](mailto:interesseforeninger@egebjergfaelleshus.dk)  
