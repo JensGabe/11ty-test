@@ -19,7 +19,14 @@ date: git Last Modified
 * **Kan jeg bestille rengøring som en del af udlejningen?**  
     
     Desværre nej.  
-    Men du er velkommen til at kontakte *Amra* der foretager den normale rengøring i Fælleshuset på mobil 22142699, og høre om hun har tid til at klare rengøringen for jer. En evt. aftale vil være mellem dig og Amra! Overfor Fælleshuset vil det stadig være lejer der står med ansvaret for rengøringen.
+    Men du er velkommen til at kontakte *Amra* der foretager den normale rengøring i Fælleshuset på mobil 22142699, og høre om hun har tid til at klare rengøringen for jer. 
+    En evt. aftale vil være mellem dig og Amra! Overfor Fælleshuset vil det stadig være lejer der står med ansvaret for rengøringen.
+
+* **Kan jeg bestille serveringspersonale som en del af udlejningen?**  
+    
+    Desværre nej.  
+    Men du er velkommen til at kontakte *Amra* der foretager den normale rengøring i Fælleshuset på mobil 22142699, og høre om hun har tid til at forestå serveringen for jer.
+    En evt. aftale vil være mellem dig og Amra!
 
 * **Kan jeg booke Fælleshuset til en begivenhed der først er om 1 år?**  
 
