@@ -1,0 +1,16 @@
+{
+  "enkeltdag": [
+    { "label": "Lørdag, søndag og helligdag", "pris": 1975 },
+    { "label": "Fredag", "pris": 1350 },
+    { "label": "Mandag – torsdag", "pris": 800 }
+  ],
+  "flerdag": [
+    { "label": "Fredag – lørdag", "pris": 2800 },
+    { "label": "Lørdag – søndag", "pris": 3200 },
+    { "label": "Fredag – søndag", "pris": 4000 }
+  ],
+  "ekstralokale": 300,
+  "gebyr": 250,
+  "gaester": 72,
+  "bookMaaneder": 6
+}

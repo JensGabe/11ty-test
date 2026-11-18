@@ -1,0 +1,21 @@
+---
+pagination:
+  data: redirects
+  size: 1
+  alias: redirect
+permalink: "{{ redirect.from }}index.html"
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="da-DK">
+<head>
+  <meta charset="UTF-8">
+  <title>Siden er flyttet · Egebjerg Fælleshus</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{{ host.url }}{{ redirect.to | url }}">
+  <meta http-equiv="refresh" content="0; url={{ redirect.to | url }}">
+</head>
+<body>
+  <p>Siden er flyttet til <a href="{{ redirect.to | url }}">{{ redirect.to | url }}</a>.</p>
+</body>
+</html>

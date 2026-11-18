@@ -1,0 +1,22 @@
+<div class="embed" id="{{ id }}">
+  <iframe hidden src="{{ src }}" height="{{ height }}" title="{{ title }}" loading="lazy"></iframe>
+  <p class="embed-status" data-loading>Henter {{ what }} …</p>
+  <div class="embed-status embed-error" data-fallback hidden>
+    <p style="margin:0">Vores booking system er desværre ude af drift lige nu.</p>
+    <p style="margin:0">Prøv igen senere. (Der kan gå et par dage før det kører igen!)</p>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById("{{ id }}");
+  var iframe = root.querySelector("iframe");
+  var loading = root.querySelector("[data-loading]");
+  var fallback = root.querySelector("[data-fallback]");
+  var controller = new AbortController();
+  var timer = setTimeout(function () { controller.abort(); }, 5000);
+  fetch(iframe.src, { method: "HEAD", mode: "no-cors", signal: controller.signal })
+    .then(function () { iframe.hidden = false; loading.hidden = true; })
+    .catch(function () { fallback.hidden = false; loading.hidden = true; })
+    .finally(function () { clearTimeout(timer); });
+})();
+</script>

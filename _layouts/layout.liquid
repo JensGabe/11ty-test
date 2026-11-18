@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="da-DK">
+<html lang="da-DK" class="no-js">
 
 <head>
   <meta charset="UTF-8">
-  <title>Egebjerg Fælleshus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title and page.url != "/" %}{{ title }} · {% endif %}Egebjerg Fælleshus</title>
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
   <script type="application/ld+json">{
       "@context":"https://schema.org",
       "@type":"Organization",
@@ -18,9 +20,9 @@
         "postalCode": "2750"
       }
     }</script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Foreningen for Egebjerg Fælleshus">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="{{ description | default: 'Foreningen for Egebjerg Fælleshus – fælleshus til fester, foreninger og naboskab i Egebjerg, Ballerup.' }}">
+  <meta name="theme-color" content="#1f3d0c">
+  <meta name="color-scheme" content="light dark">
   <link rel="apple-touch-icon" href="/assets/icons/apple-icon-180x180.png">
   <link rel="icon" href="/assets/icons/apple-icon-180x180.png" type="image/png">
   <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
@@ -30,41 +32,96 @@
   </style>
 </head>
 
-<body class="page" onclick="document.getElementsByClassName('page')[0].classList.remove('menu-show');">
-  <div class="page-image" onclick="document.getElementsByClassName('page')[0].classList.toggle('menu-show'); event.cancelBubble = true;"></div>
-  <nav class="page-menu">
-    {% assign navPages = collections.all | eleventyNavigation %}
-    <menu>
-    {%- for entry in navPages %}
-      <li{% if entry.url == page.url %} class="page-menu-active"{% endif %}>
-        <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-        {% if entry.children.length > 0 %}
-          <menu>
-          {%- for childEntry in entry.children %}
-            <li{% if childEntry.url == page.url %} class="page-menu-active"{% endif %}>
-              <a href="{{ childEntry.url | url }}">{{ childEntry.title }}</a>
-            </li>
-          {%- endfor %}
-          </menu>
-        {% endif %}
-      </li>
-    {%- endfor %}
-    </menu>
-  </nav>
-  <header class="page-header">
-    <div>Egebjerg Fælleshus</div>
-    <div>Agernhaven 8</div>
-    <div>Ballerup</div>
+<body>
+  <a class="skip-link" href="#indhold">Gå til indhold</a>
+  {% assign navPages = collections.all | eleventyNavigation %}
+  <header class="site-header" id="site-header">
+    <div class="wrap site-bar">
+      <a class="brand" href="{{ '/' | url }}">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><g transform="rotate(24 12 12)"><path d="M12 2C13.6 2 15 3.2 15 4.8C15 5.5 14.7 6.1 14.4 6.5C16.2 6.3 17.8 7.5 17.8 9.3C17.8 10.2 17.3 10.9 16.7 11.3C18.4 11.5 19.5 12.9 19.2 14.6C18.9 16.3 17.3 17.3 15.6 17.1C14.6 18.1 13.5 18.6 12.7 18.8L12.7 22.5L11.3 22.5L11.3 18.8C10.5 18.6 9.4 18.1 8.4 17.1C6.7 17.3 5.1 16.3 4.8 14.6C4.5 12.9 5.6 11.5 7.3 11.3C6.7 10.9 6.2 10.2 6.2 9.3C6.2 7.5 7.8 6.3 9.6 6.5C9.3 6.1 9 5.5 9 4.8C9 3.2 10.4 2 12 2Z"/><path class="brand-vein" d="M12 5.5V18.5M12 9.5L9.6 8M12 9.5L14.4 8M12 13.5L8.6 11.9M12 13.5L15.4 11.9M12 17L9 15.6M12 17L15 15.6"/></g></svg>
+        <span>Egebjerg Fælleshus</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Hovedmenu">
+        <ul>
+        {%- for entry in navPages %}
+          {%- assign active = false -%}
+          {%- if entry.url == page.url -%}{%- assign active = true -%}{%- endif -%}
+          {%- for child in entry.children -%}{%- if child.url == page.url -%}{%- assign active = true -%}{%- endif -%}{%- endfor %}
+          <li><a href="{{ entry.url | url }}"{% if active %} aria-current="{% if entry.url == page.url %}page{% else %}true{% endif %}"{% endif %}>{{ entry.title }}</a></li>
+        {%- endfor %}
+        </ul>
+        <ul class="nav-secondary">
+          <li><a href="{{ '/foreningen/' | url }}"{% if page.url == "/foreningen/" %} aria-current="page"{% endif %}>Foreningen og bestyrelsen</a></li>
+          <li><a href="{{ '/foreningen/vedtaegter/' | url }}"{% if page.url == "/foreningen/vedtaegter/" %} aria-current="page"{% endif %}>Vedtægter</a></li>
+        </ul>
+      </nav>
+      <a class="button button-accent book-button" href="{{ '/book/' | url }}"{% if page.url == "/book/" %} aria-current="page"{% endif %}>Book huset</a>
+    </div>
   </header>
-  <main class="page-content">
+
+  {%- if subnav %}
+  <nav class="sub-nav wrap" aria-label="Undermenu">
+    {%- for item in subnavs[subnav] %}
+    <a href="{{ item.url | url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {%- endfor %}
+  </nav>
+  {%- endif %}
+
+  <main id="indhold" class="{% if wide %}main-wide{% else %}wrap main{% endif %}">
     {{ content }}
-    <div class="page-revised">Siden er sidst opdateret: {{ page.date | postDate }}</div>
   </main>
-  <footer class="page-footer">
-    <div>Egebjerg Fælleshus</div>
-    <div>Agernhaven 8</div>
-    <div>Ballerup</div>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>Egebjerg Fælleshus</h2>
+        <p>Agernhaven 8<br>2750 Ballerup</p>
+      </div>
+      <div>
+        <h2>Privat udlejning</h2>
+        <p>
+          <a href="mailto:privatudlejning@egebjergfaelleshus.dk">privatudlejning@<wbr>egebjergfaelleshus.dk</a><br>
+          {{ bestyrelsen[0].title }} {{ bestyrelsen[0].name }}: <a href="tel:{{ bestyrelsen[0].phone | removeSpaces }}">{{ bestyrelsen[0].phone }}</a>
+        </p>
+      </div>
+      <div>
+        <h2>Foreningen</h2>
+        <p>
+          <a href="{{ '/foreningen/#bestyrelsen' | url }}">Bestyrelsen</a><br>
+          <a href="{{ '/foreningen/vedtaegter/' | url }}">Vedtægter</a><br>
+          <a href="{{ '/foreningen/#grundejerforeninger' | url }}">Grundejerforeninger</a>
+        </p>
+      </div>
+      <div>
+        <h2>Booking for foreninger</h2>
+        <p>
+          <a href="mailto:interesseforeninger@egebjergfaelleshus.dk">interesseforeninger@<wbr>egebjergfaelleshus.dk</a><br>
+          <a href="mailto:grundejerforeninger@egebjergfaelleshus.dk">grundejerforeninger@<wbr>egebjergfaelleshus.dk</a>
+        </p>
+      </div>
+    </div>
   </footer>
+
+  <script>
+    (function () {
+      var header = document.getElementById('site-header');
+      var toggle = header.querySelector('.nav-toggle');
+      toggle.addEventListener('click', function () {
+        var open = header.classList.toggle('nav-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && header.classList.contains('nav-open')) {
+          header.classList.remove('nav-open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.focus();
+        }
+      });
+    })();
+  </script>
 </body>
 
 </html>

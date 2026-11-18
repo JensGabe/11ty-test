@@ -1,0 +1,28 @@
+---
+layout: layout.liquid
+title: Book huset
+description: Se ledige datoer og send en booking forespørgsel til Egebjerg Fælleshus.
+date: git Last Modified
+priority: 0.9
+---
+<h1>Book huset</h1>
+
+<ol class="steps">
+  <li><strong>Find en ledig dato</strong> i kalenderen herunder. Private kan booke højst {{ priser.bookMaaneder }} måneder frem.</li>
+  <li><strong>Send en forespørgsel</strong> med formularen. Læs <a href="{{ '/priser/' | url }}">priser og regler</a> først.</li>
+  <li><strong>Aftalen bliver skriftlig</strong> mellem dig og husets tilsynsførende. Ugen før kontakter den vagthavende dig om nøgler.</li>
+</ol>
+
+<h2 id="kalender">Kalender</h2>
+<p class="muted">Se hvornår Fælleshuset er reserveret, og hvornår det er ledigt.</p>
+{% render 'booking-frame.liquid', id: 'calendar', src: 'https://booking.egebjergfaelleshus.dk/calendar', height: 825, title: 'Booking kalender', what: 'booking kalenderen' %}
+
+<h2 id="forespoergsel">Booking forespørgsel</h2>
+{% render 'booking-frame.liquid', id: 'request', src: 'https://booking.egebjergfaelleshus.dk/', height: 1400, title: 'Booking forespørgsel', what: 'booking formularen' %}
+
+<h2 id="foreninger">For interesse- og grundejerforeninger</h2>
+<p>Foreninger kan reservere lokalerne op til 1 år frem. Send en forespørgsel til den relevante adresse:</p>
+<ul>
+  <li>Interesseforeninger: <a href="mailto:interesseforeninger@egebjergfaelleshus.dk">interesseforeninger@egebjergfaelleshus.dk</a></li>
+  <li>Grundejerforeninger: <a href="mailto:grundejerforeninger@egebjergfaelleshus.dk">grundejerforeninger@egebjergfaelleshus.dk</a></li>
+</ul>

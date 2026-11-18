@@ -1,17 +1,24 @@
 ---
 layout: layout.liquid
+subnav: praktisk
+title: Inventarliste
+description: Inventarliste til optælling før og efter leje af Egebjerg Fælleshus.
 eleventyNavigation:
-  parent: Lokalerne
+  parent: Praktisk
   key: Inventarliste
-  order: 3
+  order: 1
 date: 2017-04-25
 ---
-# Inventarliste #
+# Inventarliste
+
+Skriv beholdningen ved overtagelsen af lokalerne i kolonnen ”Optalt før”. Hvis uheldet er ude og noget forsvinder, så skriv antallet i kolonnen ”Mangler/itu”. Udfyld kolonnen ”Optalt efter”, inden lokalerne afleveres.
+
+<div class="button-row no-print"><button class="button button-accent" type="button" onclick="window.print()">Udskriv inventarlisten</button></div>
+
+<div class="table-scroll">
 
 <table class="inventory-table"> 
-  <cols>
-    <col>
-  </cols>
+  <colgroup><col></colgroup>
   <tbody>
     <tr class="inventory-header">
       <th>Service</th>
@@ -124,8 +131,6 @@ date: 2017-04-25
     {%- endfor -%}
   </tbody>
 </table>
+</div>
 
-Skriv i kolonnen ”Optalt før” beholdningen ved overtagelsen af lokalerne.  
-Hvis uheldet er ude og noget forsvinder, så sæt antallet i kolonnen ”Mangler/itu”.  
-Udfyld kolonnen ”Optalt” inden lokalerne afleveres.  
-Viskestykker, håndklæder og køkkenruller skal medbringes.  
+<p class="muted">Viskestykker, håndklæder og køkkenruller skal medbringes. På mobil kan tabellen rulles sidelæns.</p>

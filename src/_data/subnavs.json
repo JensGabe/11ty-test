@@ -1,0 +1,12 @@
+{
+  "praktisk": [
+    { "title": "Praktisk", "url": "/praktisk/" },
+    { "title": "Inventarliste", "url": "/praktisk/inventarliste/" },
+    { "title": "Ofte stillede spørgsmål", "url": "/faq/" }
+  ],
+  "huset": [
+    { "title": "Det får du", "url": "/huset/#det-faar-du" },
+    { "title": "Plantegning", "url": "/huset/#plantegning" },
+    { "title": "Billeder", "url": "/huset/#billeder" }
+  ]
+}

@@ -15,6 +15,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addFilter("removeSpaces", (value) => value.replace(' ', ''));
 	eleventyConfig.addFilter("postDate", (dateObj) => new Intl.DateTimeFormat("da-DK").format(dateObj));
+	eleventyConfig.addFilter("kr", (value) => new Intl.NumberFormat("da-DK").format(value) + " kr.");
 	eleventyConfig.addFilter("cssmin", function (code) {
 		return new CleanCSS({}).minify(code).styles;
 	});

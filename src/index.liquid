@@ -1,0 +1,69 @@
+---
+layout: layout.liquid
+title: Overblik
+wide: true
+eleventyNavigation:
+  key: Overblik
+  order: 1
+date: git Last Modified
+priority: 1
+---
+<section class="banner">
+  <img src="{{ '/assets/billeder/02-DSF4352.jpg' | url }}" alt="Egebjerg Fælleshus set udefra en solrig vinterdag" width="1152" height="768" fetchpriority="high">
+  <div class="banner-text wrap">
+    <h1>Egebjerg Fælleshus</h1>
+    <p>Agernhaven 8 · 2750 Ballerup</p>
+  </div>
+</section>
+
+<div class="wrap overview">
+  <section class="overview-intro">
+    <h2>Overblik</h2>
+    <p>Egebjerg Fælleshus har til huse på adressen Agernhaven 8, 2750 Ballerup, og der er plads til <strong>{{ priser.gaester }} gæster</strong>.</p>
+    <p>Huset drives af en selvstændig bestyrelse. Driften finansieres af en række faste brugere, især interesse- og <a href="{{ '/foreningen/#grundejerforeninger' | url }}">grundejerforeninger</a>, og herudover af udlejning til private.</p>
+    <dl class="facts facts-compact">
+      <div><dt>Plads til</dt><dd>{{ priser.gaester }} gæster</dd></div>
+      <div><dt>Weekenddag</dt><dd>{{ priser.enkeltdag[0].pris | kr }}</dd></div>
+      <div><dt>Hverdag</dt><dd>{{ priser.enkeltdag[2].pris | kr }}</dd></div>
+      <div><dt>Book højst</dt><dd>{{ priser.bookMaaneder }} mdr. frem</dd></div>
+    </dl>
+  </section>
+
+  <div class="summary-grid">
+    <section class="summary">
+      <h2>Udlejning til private</h2>
+      <p>Reservationer kan <strong>tidligst</strong> ske {{ priser.bookMaaneder }} måneder før brugsdagen.</p>
+      <p>Lokalerne er som regel ledige i weekender og på helligdage. De foreninger, der finansierer husets drift, har fortrinsret – som oftest faste dage og tider, reserveret lang tid i forvejen.</p>
+      <div class="summary-links">
+        <a class="button button-accent" href="{{ '/book/' | url }}">Book huset</a>
+        <a class="button" href="{{ '/priser/' | url }}">Priser og regler</a>
+      </div>
+    </section>
+
+    <section class="summary">
+      <h2>Hvad sker der i Fælleshuset?</h2>
+      <p>I <a href="{{ '/book/#kalender' | url }}">booking kalenderen</a> kan du se alle de åbne arrangementer, der er planlagt, og om Fælleshuset er ledigt til dit private arrangement.</p>
+      <p>Detaljer om arrangementer afholdt af <strong>Egebjergklubben</strong> kan ses på <a href="https://egebjergklubben.dk/">egebjergklubben.dk</a>.</p>
+    </section>
+
+    <section class="summary">
+      <h2>Udlejning til foreninger</h2>
+      <p>Interesse- og grundejerforeninger kan reservere lokalerne op til 1 år frem. Skriv til:</p>
+      <ul class="plain">
+        <li><a href="mailto:interesseforeninger@egebjergfaelleshus.dk">interesseforeninger@<wbr>egebjergfaelleshus.dk</a></li>
+        <li><a href="mailto:grundejerforeninger@egebjergfaelleshus.dk">grundejerforeninger@<wbr>egebjergfaelleshus.dk</a></li>
+      </ul>
+    </section>
+
+    <section class="summary">
+      <h2>Er du medlem?</h2>
+      <blockquote><p>"Foreningens medlemmer er de beboere, som er medlem af en grundejerforening, der økonomisk støtter driften af huset."</p></blockquote>
+      <p class="muted">Vedtægternes § 3</p>
+      <p><a href="{{ '/foreningen/#grundejerforeninger' | url }}">Se om din grundejerforening er omfattet</a></p>
+    </section>
+  </div>
+
+  <div class="notice">
+    <p><strong>Konfirmationer {{ konfirmationer.aar }}:</strong> {{ konfirmationer.dage | join: ", " }}. Der gælder særlige ansøgningsfrister og lodtrækning. <a href="{{ '/priser/#konfirmationer' | url }}">Læs reglerne</a>.</p>
+  </div>
+</div>

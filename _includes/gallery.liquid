@@ -1,0 +1,46 @@
+<ul class="gallery" id="gallery">
+{%- for image in collections.images %}
+  <li><button type="button" data-index="{{ forloop.index0 }}" aria-label="Vis billede {{ forloop.index }} af {{ collections.images.size }}"><img src="{{ image.path | url }}" alt="" loading="lazy" decoding="async" width="400" height="300"></button></li>
+{%- endfor %}
+</ul>
+<dialog class="lightbox" id="lightbox" aria-label="Billedvisning">
+  <img alt="">
+  <button type="button" class="lightbox-close" aria-label="Luk">&times;</button>
+  <button type="button" class="lightbox-prev" aria-label="Forrige billede">&#8249;</button>
+  <button type="button" class="lightbox-next" aria-label="Næste billede">&#8250;</button>
+  <span class="lightbox-count"></span>
+</dialog>
+<script>
+(function () {
+  var thumbs = Array.prototype.slice.call(document.querySelectorAll("#gallery img"));
+  var box = document.getElementById("lightbox");
+  if (!box || !box.showModal) return;
+  var img = box.querySelector("img"), count = box.querySelector(".lightbox-count"), i = 0, startX = null;
+  function show(n) {
+    i = (n + thumbs.length) % thumbs.length;
+    img.src = thumbs[i].src;
+    count.textContent = (i + 1) + " / " + thumbs.length;
+  }
+  document.getElementById("gallery").addEventListener("click", function (e) {
+    var b = e.target.closest("button");
+    if (!b) return;
+    show(+b.dataset.index);
+    box.showModal();
+  });
+  box.querySelector(".lightbox-close").onclick = function () { box.close(); };
+  box.querySelector(".lightbox-prev").onclick = function () { show(i - 1); };
+  box.querySelector(".lightbox-next").onclick = function () { show(i + 1); };
+  box.addEventListener("click", function (e) { if (e.target === box) box.close(); });
+  box.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowLeft") show(i - 1);
+    if (e.key === "ArrowRight") show(i + 1);
+  });
+  box.addEventListener("touchstart", function (e) { startX = e.touches[0].clientX; }, { passive: true });
+  box.addEventListener("touchend", function (e) {
+    if (startX === null) return;
+    var dx = e.changedTouches[0].clientX - startX;
+    if (Math.abs(dx) > 40) show(dx < 0 ? i + 1 : i - 1);
+    startX = null;
+  });
+})();
+</script>

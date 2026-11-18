@@ -1,34 +1,43 @@
 ---
 layout: layout.liquid
+subnav: praktisk
+title: Ofte stillede spørgsmål
+description: Ofte stillede spørgsmål om leje af Egebjerg Fælleshus.
 eleventyNavigation:
-  parent: Lokalerne
   key: FAQ
   order: 5
 date: git Last Modified
 ---
-# Ofte stillede spørgsmål #
+# Ofte stillede spørgsmål
 
-* **Hvornår får jeg adgang til lokalerne?**  
+<p class="lead">Finder du ikke svaret her, så se <a href="{{ '/praktisk/' | url }}">huskelisten</a> eller <a href="{{ '/priser/' | url }}">priser og regler</a>.</p>
 
-    Du bliver kontaktet af den vagthavende i ugen op til din udlejning for at aftale nærmere vedr. adgang til og efterfølgende aflevering af lokalerne.  
+<div class="faq">
+<details><summary>Hvornår får jeg adgang til lokalerne?</summary><div>
 
-* **Kan jeg se lokalerne før jeg lejer dem?**  
-    
-    Absolut, du er altid velkommen til kontakte en fra bestyrelsen ang. en fremvising, eller endnu bedre: møde op til et af de mange arrangementer der afholdes i Fælleshuset, som f.eks. Egebjergklubbens fællesspising - du kan finde dato for den næste på Egebjergklubbens hjemmeside [https://www.egebjergklubben.dk/](https://www.egebjergklubben.dk/).
+Du bliver kontaktet af den vagthavende i ugen op til din udlejning for at aftale adgang til og aflevering af lokalerne.
 
-* **Kan jeg bestille rengøring som en del af udlejningen?**  
-    
-    Desværre nej.  
-    Men du er velkommen til at kontakte *Amra* der foretager den normale rengøring i Fælleshuset på mobil 22142699, og høre om hun har tid til at klare rengøringen for jer. 
-    En evt. aftale vil være mellem dig og Amra! Overfor Fælleshuset vil det stadig være lejer der står med ansvaret for rengøringen.
+</div></details>
+<details><summary>Kan jeg se lokalerne, før jeg lejer dem?</summary><div>
 
-* **Kan jeg bestille serveringspersonale som en del af udlejningen?**  
-    
-    Desværre nej.  
-    Men du er velkommen til at kontakte *Amra* der foretager den normale rengøring i Fælleshuset på mobil 22142699, og høre om hun har tid til at forestå serveringen for jer.
-    En evt. aftale vil være mellem dig og Amra!
+Absolut. Du er altid velkommen til at kontakte en fra [bestyrelsen]({{ '/foreningen/#bestyrelsen' | url }}) om en fremvisning – eller endnu bedre: kom til et af de mange arrangementer i Fælleshuset, fx Egebjergklubbens fællesspisning. Du kan finde datoen for den næste på [egebjergklubben.dk](https://www.egebjergklubben.dk/).
 
-* **Kan jeg booke Fælleshuset til en begivenhed der først er om 1 år?**  
+</div></details>
+<details><summary>Kan jeg bestille rengøring som en del af udlejningen?</summary><div>
 
-    Desværre nej - ikke for privatudlejninger.  
-    Bestyrelsen har vedtaget at der højest kan bookes op til 6 måneder ud i fremtiden for udlejninger til private arrangementer.
+Desværre nej. Men du er velkommen til at kontakte *Amra*, der står for den normale rengøring i Fælleshuset, på mobil [22 14 26 99](tel:22142699) og høre, om hun har tid til at klare rengøringen for jer.
+
+En evt. aftale er mellem dig og Amra. Over for Fælleshuset er det stadig lejer, der har ansvaret for rengøringen.
+
+</div></details>
+<details><summary>Kan jeg bestille serveringspersonale som en del af udlejningen?</summary><div>
+
+Desværre nej. Men du er velkommen til at kontakte *Amra* på mobil [22 14 26 99](tel:22142699) og høre, om hun har tid til at stå for serveringen. En evt. aftale er mellem dig og Amra.
+
+</div></details>
+<details><summary>Kan jeg booke Fælleshuset til en begivenhed, der først er om 1 år?</summary><div>
+
+Desværre nej – ikke til private arrangementer. Bestyrelsen har besluttet, at private højst kan booke {{ priser.bookMaaneder }} måneder ud i fremtiden.
+
+</div></details>
+</div>
