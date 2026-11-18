@@ -1,0 +1,12 @@
+[
+  { "from": "/regler/", "to": "/priser/" },
+  { "from": "/reservationer/", "to": "/book/#kalender" },
+  { "from": "/kontakt/", "to": "/book/#forespoergsel" },
+  { "from": "/lokalerne/", "to": "/huset/" },
+  { "from": "/plantegning/", "to": "/huset/#plantegning" },
+  { "from": "/inventar/", "to": "/praktisk/inventarliste/" },
+  { "from": "/huskeliste/", "to": "/praktisk/" },
+  { "from": "/bestyrelsen/", "to": "/foreningen/#bestyrelsen" },
+  { "from": "/grundejerforeninger/", "to": "/foreningen/#grundejerforeninger" },
+  { "from": "/vedtægter/", "to": "/foreningen/vedtaegter/" }
+]
