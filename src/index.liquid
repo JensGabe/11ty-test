@@ -30,20 +30,18 @@ priority: 1
   </section>
 
   <div class="summary-grid">
-    <section class="summary">
-      <h2>Udlejning til private</h2>
-      <p>Reservationer kan <strong>tidligst</strong> ske {{ priser.bookMaaneder }} måneder før brugsdagen.</p>
-      <p>Lokalerne er som regel ledige i weekender og på helligdage. De foreninger, der finansierer husets drift, har fortrinsret – som oftest faste dage og tider, reserveret lang tid i forvejen.</p>
-      <div class="summary-links">
-        <a class="button button-accent" href="{{ '/book/' | url }}">Book huset</a>
-        <a class="button" href="{{ '/priser/' | url }}">Priser og regler</a>
-      </div>
-    </section>
 
     <section class="summary">
       <h2>Hvad sker der i Fælleshuset?</h2>
       <p>I <a href="{{ '/book/#kalender' | url }}">booking kalenderen</a> kan du se alle de åbne arrangementer, der er planlagt, og om Fælleshuset er ledigt til dit private arrangement.</p>
       <p>Detaljer om arrangementer afholdt af <strong>Egebjergklubben</strong> kan ses på <a href="https://egebjergklubben.dk/">egebjergklubben.dk</a>.</p>
+    </section>
+
+    <section class="summary">
+      <h2>Er du medlem?</h2>
+      <blockquote><p>"Foreningens medlemmer er de beboere, som er medlem af en grundejerforening, der økonomisk støtter driften af huset."</p></blockquote>
+      <p class="muted">Vedtægternes § 3</p>
+      <p><a href="{{ '/foreningen/#grundejerforeninger' | url }}">Se om din grundejerforening er omfattet</a></p>
     </section>
 
     <section class="summary">
@@ -56,11 +54,15 @@ priority: 1
     </section>
 
     <section class="summary">
-      <h2>Er du medlem?</h2>
-      <blockquote><p>"Foreningens medlemmer er de beboere, som er medlem af en grundejerforening, der økonomisk støtter driften af huset."</p></blockquote>
-      <p class="muted">Vedtægternes § 3</p>
-      <p><a href="{{ '/foreningen/#grundejerforeninger' | url }}">Se om din grundejerforening er omfattet</a></p>
+      <h2>Udlejning til private</h2>
+      <p>Reservationer kan <strong>tidligst</strong> ske {{ priser.bookMaaneder }} måneder før brugsdagen.</p>
+      <p>Lokalerne er som regel ledige i weekender og på helligdage. De foreninger, der finansierer husets drift, har fortrinsret – som oftest faste dage og tider, reserveret lang tid i forvejen.</p>
+      <div class="summary-links">
+        <a class="button button-accent" href="{{ '/book/' | url }}">Book huset</a>
+        <a class="button" href="{{ '/priser/' | url }}">Priser og regler</a>
+      </div>
     </section>
+
   </div>
 
   <div class="notice">

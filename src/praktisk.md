@@ -37,7 +37,7 @@ date: git Last Modified
   <li>Affald fra bar, toiletter og køkken affaldssorteres i containerne udenfor mellem køkkenet og klubbens skaterbane. Er containerne låst, hænger der en nøgle på opslagstavlen i køkkenet – lås igen efter brug. Der ligger ekstra plastposer ved emhætten.</li>
   <li>Vinduerne skal være lukkede og haspede, lys og ventilator slukkes, og døre låses.</li>
   <li>Fejl og mangler meddeles den tilsynsførende, når nøglen afleveres, sammen med en opgørelse over evt. ituslået porcelæn og glas. Det afregnes med priserne i inventarlisten. Erstatning for andet afregnes efter aftale.</li>
-  <li>Lokalerne skal afleveres i pæn stand til næste bruger. I må ikke tage service og andre af Fælleshusets ting med hjem.</li>
+  <li>Lokalerne skal afleveres i pæn stand til næste bruger. Service og inventar må ikke tage fjernes fra Fælleshusets.</li>
 </ul>
 
 Er der mangler når lokalerne afleveres (dårlig rengøring, ituslået glas og porcelæn m.v.), vil der bliver opkrævet yderligere.
